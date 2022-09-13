@@ -1,0 +1,28 @@
+tất cả các hooks trong reactjs
+*
+    useState  -> khi muốn thay đổi trạng thái của dữ liệu nó giúp đơn giản hóa cái việc thể hiện trạng thái của dũ liệu hiện thị ra giao diện người dùng
+
+    Two way binding -> ràng buộc 2 chiều
+
+    Mounted/Unmounted -> ẩn hiện
+    
+    useEffect -> dùng khi muốn thực hiện sideEffect dữ liệu của trương trình bị thay đổi
+
+    {useEffect => update Dom , call api , listen dom event,cleanup..}
+
+    *Callback trong useEffect chỉ được gọi sau khi element đã được render vào DOM.
+    
+    Side Effect {
+        có 2 loại sideEffect {
+            -Effect không cần cleanup: gọi api,tương tác Dom
+            -Effect cần cleanup: setTimeOut, setInterval
+        }
+    }
+    useLayoutEffect
+    useRef
+    useCallback
+    useMeno
+    useReducer
+    useContext
+    useImperativeHandle
+    useDebugValue
